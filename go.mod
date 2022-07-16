@@ -1,9 +1,8 @@
-module gorm.io/driver/sqlite
+module github.com/madwolfcrazy/sqlite_all_go 
 
-go 1.14
+go 1.17
 
 require (
 	github.com/jinzhu/now v1.1.5 // indirect
-	github.com/mattn/go-sqlite3 v1.14.12
 	gorm.io/gorm v1.23.4
 )
